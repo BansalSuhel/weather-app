@@ -1,0 +1,40 @@
+.weather-box {
+   text-align: center; 
+}
+
+.weather-box__city{
+   margin-bottom: .3rem;
+   font-size: 2.5rem;
+   font-weight: 700;
+
+   animation: leftToRight 1s ease-out;
+}
+
+.weather-box__date{
+    margin-bottom: 4rem;
+    font-size: 2.5rem;
+    font-weight: 300;
+    animation: rightToLeft 1s ease-out;
+}
+
+.weather-box__temp{
+    margin-bottom: 3rem;
+    background-image: linear-gradient(to right bottom, #fffbd5,#b20a2c);
+    display: inline-block;
+    padding: 0 2rem;
+    font-size: 8rem;
+    font-weight: 700;
+    color: #E6DADA;
+    opacity: .8;
+    box-shadow: 0 1rem 2rem rgba(0,0,0,.3);
+
+    animation: opactityTemp 4s ease-out;
+   
+}
+
+.weather-box__main {
+    font-size: 3rem;
+    font-weight: 400;
+
+    animation: bottomEndToTop 1s ease-out;
+}
